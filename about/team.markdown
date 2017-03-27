@@ -1,7 +1,7 @@
 ---
 title: Team
 date: 2017-03-14 18:13:00 Z
-position: 1
+position: 0
 ---
 
 Get to know the people behind the team here at FructoCorp.
