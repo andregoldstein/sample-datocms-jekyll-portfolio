@@ -1,15 +1,22 @@
-baseurl: ""
+---
+title: Your awesome title
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+  works:
+    title: Works
+    output: true
+baseurl: ''
 url: "/"
 markdown: kramdown
-source: "src"
-destination: "public"
-
-collections:
-  works:
-    output: true
-
+source: src
+destination: public
 gems:
-  - octopress-paginate
-
+- octopress-paginate
 exclude:
-  - node_modules
+- node_modules
